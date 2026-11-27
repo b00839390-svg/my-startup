@@ -1,0 +1,24 @@
+.footer {
+  background-color: #1b4332;
+  color: #d8f3dc;
+  padding: 30px 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 0px 20px;
+}
+
+.list-inline a {
+  color: #d8f3dc;
+  font-size: 24px;
+}
+
+.list-inline a:hover {
+  color: white;
+}

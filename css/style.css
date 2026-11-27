@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Roboto:wght@300;400;700&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+
+body {
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  color: rgb(30, 40, 35);
+  background-color: #f4f7f4;
+  margin: 0px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #1b4332;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+
+  padding: 30px;
+  border-radius: 4px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 40px 0px;
+
+}
+
+.promo-code {
+  font-family: 'Roboto', sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+
+  letter-spacing: 4px;
+  color: #2d6a4f;
+  background-color: #e9f5ee;
+  padding: 6px 16px;
+  border-radius: 4px;
+}
+
+.typeform-section {
+  background-color: #e9f2ec;
+  padding: 50px 0px;
+  
+  margin-top: 40px;
+}
